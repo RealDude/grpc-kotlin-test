@@ -1,0 +1,16 @@
+plugins {
+    id "com.zoltu.kotlin" version "1.0.1-1"
+    id "application"
+}
+
+mainClassName = "HelloworldclientKt"
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.jetbrains.kotlin:kotlin-stdlib:1.0.1-1'
+    compile 'io.grpc:grpc-all:0.13.2'
+    compile project(':proto')
+}

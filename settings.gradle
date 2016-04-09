@@ -1,0 +1,4 @@
+rootProject.name = 'gRPC-Test'
+include 'proto'
+include 'server'
+include 'client'
