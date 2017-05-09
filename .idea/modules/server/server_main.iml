@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id=":server:main" external.linked.project.path="$MODULE_DIR$/../../../server" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="gRPC-Test" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="2" platform="JVM 1.6" useProjectSettings="false">
+        <compilerSettings />
+        <compilerArguments>
+          <option name="destination" value="D:\Temp\kotlin\gRPC-Test-4\server\build\kotlin-classes\main" />
+          <option name="classpath" value="C:\Users\s.schneider\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\1.1.2-2\2b22828f027e103dcd45f3aa240338bfdb53d16b\kotlin-stdlib-1.1.2-2.jar;C:\Users\s.schneider\.gradle\caches\modules-2\files-2.1\io.grpc\grpc-netty\1.3.0\a81c3f104c51302fbb972fdc1957dc5b3091d89a\grpc-netty-1.3.0.jar;C:\Users\s.schneider\.gradle\caches\modules-2\files-2.1\io.grpc\grpc-protobuf\1.3.0\ab950b38b67a3b22c8d709970bef053304b13b31\grpc-protobuf-1.3.0.jar;C:\Users\s.schneider\.gradle\caches\modules-2\files-2.1\io.grpc\grpc-stub\1.3.0\ec6514126b1e4b460491b29df11a365880359d8c\grpc-stub-1.3.0.jar;C:\Users\s.schneider\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\13.0\919f0dfe192fb4e063e7dacadee7f8bb9a2672a9\annotations-13.0.jar;C:\Users\s.schneider\.gradle\caches\modules-2\files-2.1\io.grpc\grpc-core\1.3.0\c44f8c1d9561f5ad0212cb4ee5e035bc03d47700\grpc-core-1.3.0.jar;C:\Users\s.schneider\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec-http2\4.1.8.Final\105a99ee5767463370ccc3d2e16800bd99f5648e\netty-codec-http2-4.1.8.Final.jar;C:\Users\s.schneider\.gradle\caches\modules-2\files-2.1\io.netty\netty-handler-proxy\4.1.8.Final\c4d22e8b9071a0ea8d75766d869496c32648a758\netty-handler-proxy-4.1.8.Final.jar;C:\Users\s.schneider\.gradle\caches\modules-2\files-2.1\com.google.protobuf\protobuf-java\3.2.0\62ccf171a106ff6791507f2d5364c275f9a3131d\protobuf-java-3.2.0.jar;C:\Users\s.schneider\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\19.0\6ce200f6b23222af3d8abb6b6459e6c44f4bb0e9\guava-19.0.jar;C:\Users\s.schneider\.gradle\caches\modules-2\files-2.1\com.google.protobuf\protobuf-java-util\3.2.0\25ec9bf5bb119978c514b46f568bed896c5a4a8b\protobuf-java-util-3.2.0.jar;C:\Users\s.schneider\.gradle\caches\modules-2\files-2.1\com.google.api.grpc\grpc-google-common-protos\0.1.6\4233dc83add6f51277a1333b40a181e8d4f9ced3\grpc-google-common-protos-0.1.6.jar;C:\Users\s.schneider\.gradle\caches\modules-2\files-2.1\io.grpc\grpc-protobuf-lite\1.3.0\aea7ea9cd12ad1938231769738016622461b1ed\grpc-protobuf-lite-1.3.0.jar;C:\Users\s.schneider\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.0.19\c3754a0bdd545b00ddc26884f9e7624f8b6a14de\error_prone_annotations-2.0.19.jar;C:\Users\s.schneider\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar;C:\Users\s.schneider\.gradle\caches\modules-2\files-2.1\io.grpc\grpc-context\1.3.0\2a924ad1897dd1b768e1859943e2d0408789150a\grpc-context-1.3.0.jar;C:\Users\s.schneider\.gradle\caches\modules-2\files-2.1\com.google.instrumentation\instrumentation-api\0.3.0\a2e145e7a7567c6372738f5c5a6f3ba6407ac354\instrumentation-api-0.3.0.jar;C:\Users\s.schneider\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec-http\4.1.8.Final\1e88617c4a6c88da7e86fdbbd9494d22a250c879\netty-codec-http-4.1.8.Final.jar;C:\Users\s.schneider\.gradle\caches\modules-2\files-2.1\io.netty\netty-handler\4.1.8.Final\db01139bfb11afd009a695eef55b43bbf22c4ef5\netty-handler-4.1.8.Final.jar;C:\Users\s.schneider\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport\4.1.8.Final\905b5dadce881c9824b3039c0df36dabbb7b6a07\netty-transport-4.1.8.Final.jar;C:\Users\s.schneider\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec-socks\4.1.8.Final\7f7c5f5b154646d7c571f8ca944fb813f71b1d51\netty-codec-socks-4.1.8.Final.jar;C:\Users\s.schneider\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar;C:\Users\s.schneider\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec\4.1.8.Final\1bd0a2d032e5c7fc3f42c1b483d0f4c57eb516a3\netty-codec-4.1.8.Final.jar;C:\Users\s.schneider\.gradle\caches\modules-2\files-2.1\io.netty\netty-buffer\4.1.8.Final\43292c2622e340a0d07178c341ca3bdf3d662034\netty-buffer-4.1.8.Final.jar;C:\Users\s.schneider\.gradle\caches\modules-2\files-2.1\io.netty\netty-resolver\4.1.8.Final\2e116cdd5edc01b2305072b1dbbd17c0595dbfef\netty-resolver-4.1.8.Final.jar;C:\Users\s.schneider\.gradle\caches\modules-2\files-2.1\io.netty\netty-common\4.1.8.Final\ee62c80318413d2375d145e51e48d7d35c901324\netty-common-4.1.8.Final.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="server_main" />
+          <option name="jvmTarget" value="1.6" />
+          <option name="addCompilerBuiltIns" value="true" />
+          <option name="languageVersion" value="1.1" />
+          <option name="apiVersion" value="1.1" />
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+          <option name="coroutinesWarn" value="true" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/../../../server/build/classes/main" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../server/src/main">
@@ -10,39 +35,32 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.0.1-1" level="project" />
-    <orderEntry type="library" name="Gradle: io.grpc:grpc-all:0.13.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.1.2-2" level="project" />
+    <orderEntry type="library" name="Gradle: io.grpc:grpc-netty:1.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.grpc:grpc-protobuf:1.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.grpc:grpc-stub:1.3.0" level="project" />
     <orderEntry type="module" module-name="proto_main" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-runtime:1.0.1-1" level="project" />
-    <orderEntry type="library" name="Gradle: io.grpc:grpc-netty:0.13.2" level="project" />
-    <orderEntry type="library" name="Gradle: io.grpc:grpc-auth:0.13.2" level="project" />
-    <orderEntry type="library" name="Gradle: io.grpc:grpc-protobuf-nano:0.13.2" level="project" />
-    <orderEntry type="library" name="Gradle: io.grpc:grpc-core:0.13.2" level="project" />
-    <orderEntry type="library" name="Gradle: io.grpc:grpc-protobuf:0.13.2" level="project" />
-    <orderEntry type="library" name="Gradle: io.grpc:grpc-okhttp:0.13.2" level="project" />
-    <orderEntry type="library" name="Gradle: io.grpc:grpc-stub:0.13.2" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http2:4.1.0.CR3" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.auth:google-auth-library-oauth2-http:0.3.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.guava:guava:18.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.protobuf.nano:protobuf-javanano:3.0.0-alpha-5" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.grpc:grpc-core:1.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http2:4.1.8.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-handler-proxy:4.1.8.Final" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.protobuf:protobuf-java:3.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.guava:guava:19.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.protobuf:protobuf-java-util:3.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.api.grpc:grpc-google-common-protos:0.1.6" level="project" />
+    <orderEntry type="library" name="Gradle: io.grpc:grpc-protobuf-lite:1.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.errorprone:error_prone_annotations:2.0.19" level="project" />
     <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.protobuf:protobuf-java:3.0.0-beta-2" level="project" />
-    <orderEntry type="library" name="Gradle: com.squareup.okio:okio:1.6.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.squareup.okhttp:okhttp:2.5.0" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http:4.1.0.CR3" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-handler:4.1.0.CR3" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.auth:google-auth-library-credentials:0.3.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.http-client:google-http-client:1.19.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.http-client:google-http-client-jackson2:1.19.0" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-codec:4.1.0.CR3" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-buffer:4.1.0.CR3" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-transport:4.1.0.CR3" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpclient:4.0.1" level="project" />
-    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.1.3" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-common:4.1.0.CR3" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-resolver:4.1.0.CR3" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpcore:4.0.1" level="project" />
-    <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.1.1" level="project" />
-    <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.3" level="project" />
+    <orderEntry type="library" name="Gradle: io.grpc:grpc-context:1.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.instrumentation:instrumentation-api:0.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http:4.1.8.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-handler:4.1.8.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport:4.1.8.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-socks:4.1.8.Final" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.7" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec:4.1.8.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-buffer:4.1.8.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-resolver:4.1.8.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-common:4.1.8.Final" level="project" />
   </component>
 </module>
